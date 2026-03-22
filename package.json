@@ -1,0 +1,68 @@
+{
+	"name": "orange",
+	"displayName": "Orange Theme",
+	"description": "A rich-toned, grey-tinted theme for VS Code",
+	"version": "1.0.1",
+	"author": "tuantf (https://github.com/tuantf)",
+	"publisher": "tuantf",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "images/orange.png",
+	"galleryBanner": {
+		"color": "#222222",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/tuantf/vscode-theme-orange",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tuantf/vscode-theme-orange.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Orange Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/orange-dark.json"
+			},
+			{
+				"label": "Orange Light",
+				"uiTheme": "vs",
+				"path": "./themes/orange-light.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "tuantf.orange",
+		"publisherDisplayName": "tuantf",
+		"publisherId": "tuantf"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"@types/node": "^25.5.0",
+		"@vscode/vsce": "^3.7.1",
+		"eslint": "^10.1.0",
+		"eslint-config-prettier": "^10.1.8",
+		"ovsx": "^0.10.9",
+		"prettier": "3.8.1",
+		"semantic-release": "^25.0.3",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.57.1"
+	},
+	"private": true,
+	"scripts": {
+		"semantic-release": "semantic-release",
+		"package": "vsce package --no-dependencies",
+		"dev": "tsx watch ./src/main.ts",
+		"build": "tsx ./src/main.ts",
+		"type:check": "tsc ./src/*.ts --noEmit",
+		"lint:check": "eslint ./src",
+		"format:check": "prettier ./src --check"
+	},
+	"license": "MIT",
+	"type": "module"
+}
