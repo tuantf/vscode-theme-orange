@@ -1,0 +1,34 @@
+.vscode/**
+.vscode-test/**
+
+# Source & tooling (themes are shipped prebuilt)
+src/**
+code-examples/**
+
+eslint.config.mjs
+tsconfig.json
+release.config.mjs
+.prettierignore
+.prettierrc
+.editorconfig
+
+# Lockfiles
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Repo / editor / agent metadata
+.gitignore
+.serena/**
+
+# Neovim port (not used by VS Code)
+orange.lua
+
+# Local git rules under themes/
+themes/.gitignore
+
+# Packaged extensions
+*.vsix
+
+node_modules/**
