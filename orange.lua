@@ -1,0 +1,59 @@
+-- Orange color palette reference (Catppuccin latte / mocha slot names).
+return {
+  latte = {
+    rosewater = "#c14a42", --c14a4a
+    flamingo = "#c14a42", --c14a4a
+    red = "#c14a42", --c14a4a
+    maroon = "#c14a42", --c14a4a
+    pink = "#b86a78", --945e80
+    mauve = "#b86a78", --945e80
+    peach = "#d47830", --c35e0a
+    yellow = "#c49430", --b47109
+    green = "#6faa52", --6c782e
+    teal = "#5a9a6a", --4c7a5d
+    sky = "#5a9a6a", --4c7a5d
+    sapphire = "#5a9a6a", --4c7a5d
+    blue = "#4a8a86", --45707a
+    lavender = "#4a8a86", --45707a
+    text = "#303030", --654735
+    subtext1 = "#464646", --73503c
+    subtext0 = "#5c5c5c", --805942
+    overlay2 = "#7c7c7c", --8c6249
+    overlay1 = "#929292", --8c856d
+    overlay0 = "#a8a8a8", --a69d81
+    surface2 = "#bebebe", --bfb695
+    surface1 = "#cacaca", --d1c7a3
+    surface0 = "#d6d6d6", --e3dec3
+    base = "#eeeeee", --f9f5d7
+    mantle = "#e8e8e8", --f0ebce
+    crust = "#e2e2e2", --e8e3c8
+  },
+  mocha = {
+    rosewater = "#ea6962",
+    flamingo = "#ea6962",
+    red = "#ea6962",
+    maroon = "#ea6962",
+    pink = "#dc8c98", --d3869b
+    mauve = "#dc8c98",
+    peach = "#f1833f", --e78a4e
+    yellow = "#dfa43f", --d8a657
+    green = "#95bb73", --a9b665
+    teal = "#80b68a", --89b482
+    sky = "#80b68a",
+    sapphire = "#80b68a",
+    blue = "#7aaeac", --7daea3
+    lavender = "#7aaeac", --7daea3
+    text = "#dddede",
+    subtext1 = "#c6c7c7",
+    subtext0 = "#b0b1b1",
+    overlay2 = "#9a9b9b",
+    overlay1 = "#858686",
+    overlay0 = "#595959",
+    surface2 = "#4d4d4d",
+    surface1 = "#404040",
+    surface0 = "#292929",
+    base = "#222222", --1d2021
+    mantle = "#1d1d1d", --191b1c
+    crust = "#191919", --141617
+  },
+}
