@@ -138,19 +138,19 @@ export const getBaseTokenColors: Getter = (scheme) => {
 		{
 			scope: "string",
 			settings: {
-				foreground: teal,
+				foreground: fg1,
 			},
 		},
 		{
 			scope: "string.tag",
 			settings: {
-				foreground: teal,
+				foreground: fg1,
 			},
 		},
 		{
 			scope: "string.value",
 			settings: {
-				foreground: teal,
+				foreground: fg1,
 			},
 		},
 		{
@@ -168,13 +168,13 @@ export const getBaseTokenColors: Getter = (scheme) => {
 		{
 			scope: "string.quasi",
 			settings: {
-				foreground: teal,
+				foreground: fg1,
 			},
 		},
 		{
 			scope: "string.entity",
 			settings: {
-				foreground: teal,
+				foreground: fg1,
 			},
 		},
 		{
@@ -192,7 +192,7 @@ export const getBaseTokenColors: Getter = (scheme) => {
 		{
 			scope: "support.type.property-name",
 			settings: {
-				foreground: grey,
+				foreground: fg1,
 			},
 		},
 		{
