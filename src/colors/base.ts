@@ -96,7 +96,7 @@ export const getBaseColors = (scheme: ColorScheme) => {
 		"editorGroupHeader.tabsBackground": bg0,
 		"editorGroupHeader.tabsBorder": bg1,
 		// TABS
-		"tab.border": transparent,
+		"tab.border": bg2,
 		"tab.activeBorder": blue,
 		"tab.activeBackground": bg1,
 		"tab.activeForeground": fg1,
