@@ -2,7 +2,7 @@
 	"name": "orange",
 	"displayName": "Orange Theme",
 	"description": "A rich-toned, grey-tinted theme for VS Code",
-	"version": "1.0.1",
+	"version": "1.0.8",
 	"author": "tuantf (https://github.com/tuantf)",
 	"publisher": "tuantf",
 	"engines": {
@@ -56,7 +56,7 @@
 	"private": true,
 	"scripts": {
 		"semantic-release": "semantic-release",
-		"package": "vsce package --no-dependencies",
+		"package": "bun run build && vsce package --no-dependencies",
 		"dev": "tsx watch ./src/main.ts",
 		"build": "tsx ./src/main.ts",
 		"type:check": "tsc ./src/*.ts --noEmit",
