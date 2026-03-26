@@ -2,20 +2,31 @@ import { allColors } from "../../shared";
 import { Getter } from "../types";
 
 export const getJSTSColors: Getter = (scheme) => {
-	const { mauve } = allColors[scheme];
+	const { blue, red } = allColors[scheme];
 	return [
-		// javascript ---------------------------------------
+		{
+			scope: [
+				"source.js storage.type",
+				"source.jsx storage.type",
+				"source.mjs storage.type",
+				"source.cjs storage.type",
+				"source.ts storage.type",
+				"source.tsx storage.type",
+			],
+			settings: {
+				foreground: red,
+			},
+		},
 		{
 			scope: ["source.js variable.language"],
 			settings: {
-				foreground: mauve,
+				foreground: blue,
 			},
 		},
-		// typescript ---------------------------------------
 		{
 			scope: ["source.ts variable.language"],
 			settings: {
-				foreground: mauve,
+				foreground: blue,
 			},
 		},
 	];
